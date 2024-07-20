@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "651873116286",
+    "project_id": "campuspolls",
+    "storage_bucket": "campuspolls.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:651873116286:android:ba1f540d2bf5b81b55b82f",
+        "android_client_info": {
+          "package_name": "com.example.campuspolls"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUE-2KDGEklXr85hdmFf5HvDLVb6CAumE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
