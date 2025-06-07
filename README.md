@@ -10,7 +10,7 @@ Modern blockchain-based election platform designed specifically for campus elect
 Traditional campus elections face significant challenges including centralized vote counting, lack of transparency, potential manipulation, high operational costs, and poor student engagement due to complex voting processes. CampusPolls solves these issues by leveraging blockchain technology to create a transparent, secure, and cost-effective voting solution where students can vote directly from their mobile devices without needing cryptocurrency knowledge, while administrators can manage elections with complete transparency and immutable vote records.
 
 # 🎬 Demo
-[Click here to watch the demo](https://raw.githubusercontent.com/OlaPhoenix/campuspolls/main/assets/CampusPollsDemo.mp4)
+[Click here to watch the demo](https://youtu.be/DAYz8uXpXIM)
 
 # 🛠 Technology Stack
 <img src="https://raw.githubusercontent.com/OlaPhoenix/campuspolls/main/assets/images/techstack.jpg"
