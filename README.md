@@ -53,6 +53,7 @@ flutter pub get
 
 *Step 3: Firestore Database Setup*
 Create a users collection with admin document:
+---
 ```json
 {
   "email": "admin@university.edu",
