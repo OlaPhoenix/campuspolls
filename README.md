@@ -52,8 +52,9 @@ flutter pub get
     * google-services.json
 
 *Step 3: Firestore Database Setup*
+
 Create a users collection with admin document:
----
+
 ```json
 {
   "email": "admin@university.edu",
@@ -81,7 +82,9 @@ npx hardhat run scripts/deploy.js --network amoy
 ```
 
 *Step 6: Update Configuration Files*
+
 lib/services/web3_service.dart:
+
 ```dart
 static const String contractAddress = 'YOUR_DEPLOYED_CONTRACT_ADDRESS';
 static const String biconomyApiKey = 'YOUR_BICONOMY_API_KEY';
