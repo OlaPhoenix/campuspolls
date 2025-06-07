@@ -36,8 +36,8 @@ height="400"/>
 *Step 1: Clone and Install*
 ```bash
 # Clone the repository
-git clone https://github.com/username/CampusPolls.git
-cd CampusPolls
+git clone https://github.com/OlaPhoenix/campuspolls.git
+cd campuspolls
 
 # Install Flutter dependencies
 flutter pub get
