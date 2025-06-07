@@ -49,7 +49,7 @@ flutter pub get
 * Enable Email/Password Authentication
 * Enable Firestore Database with read/write access
 * Download and add configuration files:
-* * google-services.json
+    * google-services.json
 
 *Step 3: Firestore Database Setup*
 Create a users collection with admin document:
@@ -61,4 +61,41 @@ Create a users collection with admin document:
   "department": "department",
   "role": "admin"
 }
+```
+
+*Step 4: Biconomy Configuration*
+
+* Create account at Biconomy Dashboard
+* Create a new DApp for campus elections
+* Configure gasless transaction policies
+* Get API key and update configuration
+
+*Step 5: Smart Contract Deployment*
+```bash
+# Install dependencies
+npm install
+
+# Deploy to Amoy testnet
+npx hardhat run scripts/deploy.js --network amoy
+```
+
+*Step 6: Update Configuration Files*
+lib/services/web3_service.dart:
+```dart
+static const String contractAddress = 'YOUR_DEPLOYED_CONTRACT_ADDRESS';
+static const String biconomyApiKey = 'YOUR_BICONOMY_API_KEY';
+```
+Network Configuration:
+```dart
+static const String rpcUrl = 'https://rpc-amoy.polygon.technology/';
+static const int chainId = 80002;
+```
+
+*Step 7: Running the Application*
+```bash
+# Check connected devices
+flutter devices
+
+# Run on emulator
+flutter run
 ```
