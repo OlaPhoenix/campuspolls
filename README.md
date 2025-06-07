@@ -1,4 +1,4 @@
-<img src="https://github.com/OlaPhoenix/campuspolls/main/assets/images/appicon.png"
+<img src="https://raw.githubusercontent.com/OlaPhoenix/campuspolls/main/assets/images/appicon.png"
 alt="CampusPolls logo"
 width="100"
 height="100"/>
