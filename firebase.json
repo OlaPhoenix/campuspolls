@@ -1,0 +1,1 @@
+{"flutter":{"platforms":{"android":{"default":{"projectId":"campuspolls","appId":"1:651873116286:android:ba1f540d2bf5b81b55b82f","fileOutput":"android/app/google-services.json"}},"dart":{"lib/firebase_options.dart":{"projectId":"campuspolls","configurations":{"android":"1:651873116286:android:ba1f540d2bf5b81b55b82f","ios":"1:651873116286:ios:b91f9aefad804eb355b82f"}}}}}}
