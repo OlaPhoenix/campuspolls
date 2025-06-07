@@ -23,3 +23,21 @@ height="400"/>
 alt="Architecture"
 width="600"
 height="400"/>
+
+# 🔧 Installation & Setup
+**Prerequisites**
+
+* Flutter SDK (>=3.0.0)
+* Android Studio / VS Code
+* Firebase Account
+* Biconomy Account
+* Polygon Network Access
+
+*Step 1: Clone and Install*
+```bash
+# Clone the repository
+git clone https://github.com/username/CampusPolls.git
+cd CampusPolls
+
+# Install Flutter dependencies
+flutter pub get
