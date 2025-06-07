@@ -40,4 +40,25 @@ git clone https://github.com/OlaPhoenix/campuspolls.git
 cd campuspolls
 
 # Install Flutter dependencies
-flutter pub get
+flutter pub get 
+```
+
+*Step 2: Firebase Configuration*
+
+* Create a new project in Firebase Console
+* Enable Email/Password Authentication
+* Enable Firestore Database with read/write access
+* Download and add configuration files:
+* * google-services.json
+
+*Step 3: Firestore Database Setup*
+Create a users collection with admin document:
+```json
+{
+  "email": "admin@university.edu",
+  "admin": true,
+  "address": "0x****************************",
+  "department": "department",
+  "role": "admin"
+}
+```
