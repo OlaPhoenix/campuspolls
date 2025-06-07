@@ -1,7 +1,7 @@
-<img src="https://github.com/OlaPhoenix/campuspolls/blob/master/assets/images/appicon.jpg?raw=true"
+<img src="https://github.com/OlaPhoenix/campuspolls/blob/master/assets/images/appicon.png?raw=true"
 alt="CampusPolls logo"
-width="600"
-height="600"
+width="100"
+height="100"
 style="dislay: block; margin: 0 auto" />
 
 # CampusPolls
