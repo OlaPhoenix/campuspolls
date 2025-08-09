@@ -1,42 +1,24 @@
-import 'package:campuspolls/Providers/authentication_provider.dart';
-import 'package:campuspolls/Providers/bottom_nav_provider.dart';
-import 'package:campuspolls/Providers/db_provider.dart';
-import 'package:campuspolls/Providers/fetch_polls_provider.dart';
-import 'package:campuspolls/Screens/splash_screen.dart';
-import 'package:campuspolls/firebase_options.dart';
-import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
+import 'package:voting_dapp/pages/home.dart';
 
-void main() async {
-  WidgetsFlutterBinding.ensureInitialized();
+void main() => runApp(MyApp());
 
-  await Firebase.initializeApp(
-    options: DefaultFirebaseOptions.currentPlatform,
-  );
-  runApp(const MyApp());
-}
+class MyApp extends StatelessWidget {
+  const MyApp({Key? key}) : super(key: key);
 
-class MyApp extends StatefulWidget {
-  const MyApp({super.key});
-
-  @override
-  State<MyApp> createState() => _MyAppState();
-}
-
-class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
-    return MultiProvider(
-      providers: [
-        ChangeNotifierProvider(create: (context) => AuthProvider()),
-        ChangeNotifierProvider(create: (context) => BottomNavProvider()),
-        ChangeNotifierProvider(create: (context) => DbProvider()),
-        ChangeNotifierProvider(create: (context) => FetchPollsProvider()),
-      ],
-      child: const MaterialApp(
-        home: SplashScreen(),
-      ),
+    return MaterialApp(
+      home: Home(),
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+          brightness: Brightness.dark,
+          primaryColor: Colors.deepPurple,
+          elevatedButtonTheme: ElevatedButtonThemeData(
+            style: ButtonStyle(
+                backgroundColor: MaterialStateProperty.all(Colors.deepPurple)),
+          ),
+          appBarTheme: AppBarTheme(elevation: 0)),
     );
   }
 }
